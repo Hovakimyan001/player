@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <audio src="" id="audio"></audio>
+    <div class="container">
+        <div class="categories">
+            <div class="cat-item">Rap</div>
+            <div class="cat-item">Hip-Hop</div>
+            <div class="cat-item">Classic</div>
+            <div class="cat-item">Jaz</div>
+            <div class="cat-item">Rock</div>
+            <div class="cat-item">Bluse</div>
+            <div class="cat-item">Opera</div>
+            <div class="cat-item">Electronic</div>
+        </div>
+        <div class="audio-player">
+            <div class="overlay">
+                <div class="audio-name">
+                    <p class="artist-name">Timati</p>
+                    <h2 class="song-name">AMG</h2>
+                    <p class="song-category">Rap</p>
+                </div>
+                <div class="duration-bar">
+                    <p class="audio-currenttime">00:00</p>
+                    <input type="range" value="0" max="100" class="duration-range">
+                    <p class="audio-duration">00:00</p>
+                </div>
+                <div class="artist-picture"></div>
+                <div class="play-bar">
+                    <i class="fa fa-angle-left redo"></i>
+                    <i class="fa fa-backward prev"></i>
+                    <i class="fa fa-play playpause"></i>
+                    <i class="fa fa-forward next"></i>
+                    <i class="fa fa-angle-right undo"></i>
+                </div>
+                <div class="audio-settings">
+                    <div class="interval">
+                        <button class="A">A</button>
+                        <span>-</span>
+                        <button class="B">B</button>
+                        <button class="off">OFF</button>
+                    </div>
+                    <div class="speed">
+                        <button>0.25</button>
+                        <button>0.5</button>
+                        <button>0.75</button>
+                        <button>1</button>
+                        <button>1.25</button>
+                        <button>1.5</button>
+                        <button>1.75</button>
+                    </div>
+                </div>
+                <div class="volume-bar">
+                    <i class="fa fa-volume-up"></i>
+                    <input type="range" value="50" max="100" class="volume-range">
+                </div>
+            </div>
+        </div>
+        <div class="playlist"></div>
+    </div>
+
+    <div class="colors">
+        <div class="text">
+            <p>Text</p>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+        </div>
+        <div class="back">
+            <p>Back</p>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+        </div>
+    </div>
+    <i class="fa fa-palette"></i>
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/dc2f3c8121.js" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
